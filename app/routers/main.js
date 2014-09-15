@@ -1,6 +1,6 @@
 var AppRouter = Backbone.Router.extend({
   routes: {
-    '': 'index'
+    '*path': 'index'
   },
 
   index: function() {
