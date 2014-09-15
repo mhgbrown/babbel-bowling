@@ -1,0 +1,31 @@
+{
+  "author": "Morgan Brown",
+  "name": "babbel-bowling",
+  "description": "Package description",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.10.30"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": "^1.7",
+
+    "css-brunch": "^1.7",
+    "stylus-brunch": "^1.8.1",
+
+    "handlebars-brunch": "^1.7.8",
+
+    "uglify-js-brunch": "^1.7.7",
+    "clean-css-brunch": "^1.7.1",
+
+    "imageoptmizer-brunch": "~0.0.4",
+    "auto-reload-brunch": "^1.7.3"
+  }
+}
